@@ -1,0 +1,22 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore app settings, database, and environment files
+appsettings.Development.json
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Ignore other sensitive files (add as needed)
+secrets.json
+
+# Ignore Visual Studio Code files
+.vscode/
