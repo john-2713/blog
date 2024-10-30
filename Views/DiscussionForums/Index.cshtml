@@ -76,7 +76,8 @@
 {
     <h2>@Html.DisplayFor(modelItem => item.TopicTitle)</h2>
     @*<p>@Html.DisplayFor(modelItem => item.Like)</p>*@
-    <p>@{
+    <p>Hits: @item.Like</p>
+    @* <p>@{
             for (int i = 0; i < item.Like; i++)
             {
             <span style="color: #f8bd08; ">&#x2605;</span>
@@ -86,7 +87,7 @@
             <span>&#x2606;</span>
             }
         }
-    </p>
+    </p> *@
     <p>@Html.DisplayFor(modelItem => item.MessageContent)</p>
     <p>Posted by <b>@Html.DisplayFor(modelItem => item.UserName)</b> on
     @Html.DisplayFor(modelItem => item.PostDate)</p>

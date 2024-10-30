@@ -15,11 +15,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var assignment1Mark = 27;
-        var assignment2Mark = 27;
-        var tutorialMark = 36;
-        var totalMark = assignment1Mark + assignment2Mark + tutorialMark;
-        ViewBag.MyTotalMark = totalMark;
         return View();
     }
 
