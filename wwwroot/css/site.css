@@ -20,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.login{
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+@media(max-width: 575px){
+  .login{
+    border: none;
+    border-radius: none;
+    margin-left: 0px;
+  }
+}
